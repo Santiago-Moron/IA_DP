@@ -1,0 +1,11 @@
+In this repository you will find the Sparse Parity problem solved by training an MLP using different libraries.
+
+The description of each file is the following:
+
+"Sparse_Parity_JAX": Baseline code extracted from https://github.com/PAIR-code/ai-explorables/blob/master/server-side/grokking/MLP_Sparse_Parity.ipynb. Referenced in blog: https://pair.withgoogle.com/explorables/grokking/
+
+Keras/Sparse_parity: Sparse Parity problem solved using Keras libraries, without Differential Privacy.
+Keras/DP_Sparse_parity: Sparse Parity problem solved using Keras libraries, using (10, 1e^-6)-DP and 100% accuracy.
+
+Pytorch/Sparse_parity: Sparse Parity problem solved using Pytorch libraries, without Differential Privacy.
+Pytorch/DP_Sparse_parity: Sparse Parity problem solved using Pytorch libraries, implemented with Differential Privacy but without hyperparameter-finetuning.
